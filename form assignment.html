@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Assignment</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<form action="" class="p-5 bg-light">
+
+  <div class="row">
+
+    <div class="col">
+      <label for="mail" class="form-label">Email</label>
+  <input id="mail" type="email" class="form-control" required="required" >
+    </div>
+
+    <div class="col">
+      <label for="word" class="form-label">Password</label>
+  <input  id="word" class="form-control" type="password" required="required">
+    </div>
+
+  </div>
+
+
+ <label for="add" class="form-label">Address</label>
+  <input  id="add" type="text" class="form-control mb-3"  placeholder="1234 main 51" required="required">
+
+<label for="add2" class="form-label">Address 2</label>
+  <input  id="add2" type="text" class="form-control mb-3"  placeholder="Apartment,studio,or floor" required="required">
+
+  <div class="row">
+
+    <div class="col">
+       <label for="city" class="form-label">City</label>
+  <input  id="city" type="text" class="form-control" required="required">
+
+    </div>
+
+    <div class="col">
+      <label for="state" class="form-label">State</label>
+  <select name="" id="state" class="form-control">
+    <option value="choose" disabled="disabled" class="form-control">Choose...  </option>
+    <option value="al">Alabama</option>
+    <option value="atl">Atlanta</option>
+    <option value="ny">New York</option>
+  </select>
+
+
+    </div>
+
+    <div class="col">
+      <label for="zip" class="form-label">Zip</label>
+  <input  id="zip" class="form-control" type="text" >
+    </div>
+  </div>
+
+
+  <input type="checkbox" id="check">
+  <label for="check" class="mb-4 mt-3">Check me out </label>
+  <br>
+
+  <button class="btn btn-primary">Sign in</button>
+
+</form>
+
+</body>
+</html>
